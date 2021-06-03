@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Virtual|CONTACTO</title>
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+    <!-- header -->
+        <div class="cabezera">
+            <h1 class="titulo">Minimarket Del Todo</h1>
+            
+            <div class="logo">
+                <img src="img/123.png" width="120px" height="90px">
+            </div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+              </ul>
+        </div>
+    <!-- header -->
+
+    <!-- body -->
+    <div class="titulo-contacto">
+        <h1>CONTACTENOS</h1>
+    </div>
+    <div class="body-all">
+        <form action="registrardatos.php" method="post">
+            <fieldset>
+            <legend>Formulario de com.</legend>
+            <label for="nombre">Ingrese su nombre:</label>
+            <input type="text" name="nombre" size="30" id="nombre"><br>
+            <label for="mail">Del 1 al 10 que tanto le gusto:</label>
+            <input type="text" name="mail" size="50" id="mail"><br>
+            <label for="comentarios">Dejenos un comentario</label><br>
+            <textarea name="comentarios" rows="5" cols="60" 
+            id="comentarios"></textarea> 
+            <br>
+            <input type="submit" value="Enviar">
+            </fieldset>
+          </form>
+    </div>
+    
+
+</div>
+<div class="body-contacto">
+<hr>
+<h1>
+    <form action="registrardatos.php" method="post">
+    Dejenos una sugerencia
+    <input type="text" name="nombre" size="20">
+    <br>
+    <button type="submit">Enviar </button>
+    <button type="reset">Borrar</button>
+  </form>
+ 
+
+<h3>Enlaces de interes</h3>
+<h1>GRACIAS POR SU SUGERENCIA</h1>
+<p>Direccion: Av.Lima 123 Telefono: 4225588 email:</p>
+</div>
+
+    <!-- footer -->
+    <div class="footer">
+        <h5>© Derechos Reservados de Autor De autor | MinimarketDelTodo</h5>
+    </div>
+</body>
+</html>
